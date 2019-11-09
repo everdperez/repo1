@@ -1,0 +1,7 @@
+---
+- name: configure interface
+  ios_interface:
+      name: FastEthernet0/3
+      description: test-ansible
+      speed: 100
+      state: up
